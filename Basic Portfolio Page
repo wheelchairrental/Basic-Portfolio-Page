@@ -1,0 +1,148 @@
+<!-- HTML code -->
+
+<html>
+<nav class="nav">
+  <ul id="navbar">
+    <li><a href="#welcome-section">About</a</li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+    </nav>
+<div id="welcome-section" class="welcome">
+  <h1>wheelchairrental</h1>
+  <p>Coding stuff</p>
+  </div>
+<div class="stuff" id="projects">
+  <h2>stuff I made:</h2>
+  <a class="project" href="https://codepen.io/wheelchairrental/pen/ebjZwV" target="_blank">
+    <img id="lolfpf" src="http://poofree.com/wp-content/uploads/2013/06/What-to-do-incase-of-Dog-snake-bite-pooper-scooper-boulder-colorado-dog-poop-removal-.gif">
+    <div class="project-tile">LOLFPF</div>
+    </img>
+  </a>
+  <a class="project" href="https://codepen.io/wheelchairrental/pen/dwjvop">
+    <img id="kendrick" src="https://www.grammy.com/sites/com/files/styles/news_detail_header/public/news/gettyimages-510512262.jpg?itok=dMbzOcRb">
+    <div class="project-tile">Kung Fu Kenny</div>
+    </img>
+  </a>
+  <a class="project" href="https://codepen.io/anon/pen/BvVwVj">
+    <img id="sza" src="https://www.billboard.com/files/styles/article_main_image/public/media/sza-afropunk-billboard-1548.jpg">
+    <div class="project-tile">2018 on Last.fm</div>
+    </img>
+  </a>
+</div>  
+<footer id="contact">
+  <div class="end">Links</div>
+  <a href="https://github.com/wheelchairrental" target="_blank" id="profile-link">GitHub</a>
+  <a href="https://twitter.com/wheelchairental" target="_blank" id="profile-link">Twitter</a>
+</footer>
+</html>
+
+
+/* CSS Code */
+
+body {
+  font-family: optima;
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  color: white;
+  padding: 20px;
+}
+h2 {
+  padding: 50px;
+  margin-top: -50px;
+}
+p {
+  color: lightgreen;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  text-align: right;
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  background-color: #602040;
+  padding-top: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 50px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: lightblue;
+}
+.stuff {
+  padding-top: 50px;
+  background-color: lightblue;
+  color: 
+}
+.welcome {
+  background-color: #602040;
+  padding: 100px;
+}
+#navbar{}
+#welcome-section {
+  height: 4.7vh;
+}
+.project {
+  text-decoration: none;
+  font-size: 20px;
+  color: navy;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid white;
+  padding: 50px;
+}
+
+#projects {}
+.project-tile { 
+}
+#profile-link{
+  color: green;
+}
+@media only screen and (max-width: 400px) {
+}
+#kendrick {
+  width: 300px;
+}
+#lolfpf {
+  width: 226px;
+}
+#sza {
+  width: 255px;
+}
+.end {
+  font-size: 20px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+#profile-link {
+  padding: 50px;
+  text-decoration: none;
+}
+#profile-link:hover {
+  color: blue;
+}
+#contact {
+  background-color: pink;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+} /* Source: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+
